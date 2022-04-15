@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@font-face{
+	font-family:'autumn';
+	src:url('../fonts/Autumn in November.ttf');
+}
+
+	
+table.general{
+	width:100%;
+	border-collapse:collapse;
+}
+
+
+/* style for menu */
+table.header{
+	text-align:center;
+	width:100%;
+	border-collapse:collapse;
+}
+td.menu{
+	padding:10px;
+	width:200px;
+	height:60px;
+    font-size: 20px;
+    font-family: Snell Roundhand, cursive;
+	font-weight:bold;
+	text-align:center;
+/* 	background-color:#F0F8FF; */
+}
+a{
+	color: #20B2AA;
+	text-decoration:none;
+}
+a:hover{
+	color:#FFD6DC;
+}
+td.menu:hover{
+	font-size:25px;
+}
+
+
+/* styles for main body */
+td.main{
+	background-image:url(../images/wedding.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	height:650px;
+	text-align:center;
+}
+table.title{
+	margin:10%;	
+	text-align:center;	
+	width:80%;
+}
+td.title{
+	padding:10%;
+	background-color:rgba(255,255,255,0.8);
+	border-radius:100px;
+}
+h1.name{
+	/* font-family:Brush Script MT; */
+	font-family:autumn;
+	font-size:500%;
+	color: #20B2AA;
+	margin-bottom:0;
+}
+h1.married{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:200%;
+	color: #20B2AA;
+
+}
+
+/* styles for footer */
+table.footer{
+	background-image:url(../images/mars1.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	width:100%;
+}
+h2.footertitle{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:200%;
+	margin-top:15px;
+	margin-bottom:0;
+	margin-left:50%;
+	color:#20B2AA;
+}
+p{
+	margin:0 5% 5% 50%;
+	color:#20B2AA;
+	line-height:2;
+	font-family:Garamond;
+	font-style:italic;
+	font-size:150%;
+}
