@@ -55,3 +55,8 @@ table.selection{
 	border-radius:100px;
 
 }
+
+.center-table {
+	margin: 0 auto;
+}
+
