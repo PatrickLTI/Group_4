@@ -360,3 +360,61 @@ body {
 .address-margin {
 	margin-top: 40px;
 }
+
+/* Heindy css */
+
+
+body.mainaccomodation{
+	background-image:url(../images/weddingring.jpeg);
+	background-repeat:no-repeat;
+	background-size:160%;
+	height:700px;
+	text-align:center;
+}
+h1.accomodationtitle{
+  /* font-family:Brush Script MT; */
+  text-align: center;
+  font-family:autumn;
+	font-size:300%;
+	color: #20B2AA;
+	margin-bottom:5%;
+}
+
+th.serviceoffered{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:100%;
+	color: #20B2AA;
+}
+h3.servicedescription{
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:90%;
+	margin-top:15px;
+	margin-bottom:0;
+	color:#20B2AA;
+}
+h4.booknow{
+	text-align: center;
+	font-size:100%;
+	margin-top:15px;
+	margin-bottom:0;
+	margin-right:60px;
+	margin-left: 60px;
+	color:#20B2AA;
+	outline-style: solid;
+	padding: 5px
+}
+
+h4:hover{
+background-color: #ffd6dc;
+}
+table.selection{
+	padding:7%;
+	background-color:rgba(255,255,255,0.8);
+	border-radius:100px;
+
+}
+
+.center-table {
+	margin: 0 auto;
+}
