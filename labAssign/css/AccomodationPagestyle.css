@@ -44,8 +44,12 @@ h4.booknow{
 	outline-style: solid;
 	padding: 5px
 }
+<<<<<<< HEAD
 
 td:hover{
+=======
+h4:hover{
+>>>>>>> b0a40132aceccf9b5488fc40a70643ecde38629c
 background-color: #ffd6dc;
 }
 table.selection{
