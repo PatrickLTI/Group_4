@@ -171,7 +171,8 @@ h2.schedules-date-font {
 tr.story {
     background-image: url(../images/wedding.jpg);
     background-attachment: fixed;
-    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 10px;
 }
 
 td.storypic {
@@ -209,7 +210,7 @@ h1.story {
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.85);
     font-style: normal;
     text-align: center;
     font-weight: bold;
@@ -237,7 +238,7 @@ h1.story {
     border-radius: 5px;
     padding: 5px;
     margin: 10px;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.85);
 }
 
 /* Patrick's css file */
