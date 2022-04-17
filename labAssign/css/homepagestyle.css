@@ -147,3 +147,78 @@ h2.schedules-date-font {
   font-weight: bolder;
   margin: 5px;
 }
+
+
+/* Matthew's code */
+tr.story {
+    background-image: url(../images/wedding.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+td.storypic {
+    width: 50%;
+}
+
+td.storytext {
+    color: black;
+    line-height: 1.5;
+    font-family: Garamond, sans-serif;
+    font-size: 120%;
+    font-style: normal;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 20px;
+    width: 50%;
+}
+
+h1.story {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 200%;
+    color: #20b2aa;
+    text-align: center;
+    font-weight: bold;
+}
+.faqtitlelarge {
+    color: #20b2aa;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 250%;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.95);
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+.faqtitle {
+    color: #20b2aa;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 150%;
+    font-style: normal;
+    text-align: left;
+    font-weight: bold;
+    vertical-align: bottom;
+}
+.faqquestion {
+    color: black;
+    font-family: Garamond;
+    font-style: normal;
+    font-size: 120%;
+    text-align: left;
+    margin: 10px;
+}
+
+.faq {
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
