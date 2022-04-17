@@ -95,3 +95,55 @@ p{
 	font-style:italic;
 	font-size:150%;
 }
+
+
+
+/* Zhengliang's codes */
+
+.nav-menu {
+  background-color: rgb(240, 230, 219);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: #20b2aa;
+}
+
+.schedules-background {
+  width: 100%;
+  opacity: 0.6;
+}
+
+.centered {
+  position: absolute;
+  top: 5%;
+  left: 35%;
+  background-color: #ffffffcc;
+  background-size: 80%;
+}
+
+.schedules-table {
+  border-spacing: 60px;
+}
+
+.schedules-td {
+  margin: 20px;
+  padding: 20px;
+  border: 5px solid bisque;
+}
+
+h1.schedules-info {
+  font-family: autumn;
+  font-size: 500%;
+  color: #20b2aa;
+  margin: 20px;
+}
+
+h2.schedules-date-font {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 150%;
+  color: #20b2aa;
+  font-weight: bolder;
+  margin: 5px;
+}
