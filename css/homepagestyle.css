@@ -23,9 +23,10 @@
 
 /* End of Patrick's font */
 
-table.general{
-	width:100%;
-	border-collapse:collapse;
+table.general {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: white;
 }
 
 
@@ -116,116 +117,55 @@ p{
 
 
 /* Zhengliang's codes */
-/* Starting from here!! */
 
-.top-banner {
-  text-align: center;
-}
-
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-}
-
-.Home,
-.Address,
-.Schedules,
-.Accommodations,
-.OurStory {
-  width: 25%;
-  text-align: center;
-  color: #20b2aa;
-  font-size: 12px;
-  font-family: Snell Roundhand, cursive;
+.nav-menu {
+  background-color: rgb(240, 230, 219);
 }
 
 .container {
+  position: relative;
+  text-align: center;
+  color: #20b2aa;
+}
+
+.schedules-background {
   width: 100%;
-  height: 100vh;
-  background-image: url(../images/pinkheart.jpg);
-  background-position: center;
-  background-size: cover;
-  margin: 0 auto;
+  opacity: 0.6;
+  background-attachment: fixed;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
+.centered {
+  position: absolute;
+  top: 5%;
+  left: 35%;
+  background-color: #ffffffcc;
+  background-size: 80%;
 }
 
-.leftside-box,
-.Middle-box,
-.Right-box {
-  width: 35em;
-  border: 1px solid rgb(234, 219, 219);
-  box-shadow: 8px 8px 5px #444;
-  padding: 8px 12px;
-  background-color: rgba(240, 248, 255, 0.816);
+.schedules-table {
+  border-spacing: 60px;
 }
 
-.leftside-box:hover {
-  background-color: #20b2aa;
-  color: azure;
+.schedules-td {
+  margin: 20px;
+  padding: 20px;
+  border: 5px solid bisque;
 }
 
-.Middle-box:hover {
-  background-color: #20b2aa;
-  color: azure;
-}
-
-.Right-box:hover {
-  background-color: #20b2aa;
-  color: azure;
-}
-
-.content {
-  font-family: "Square Peg", cursive;
-  font-size: 100px;
-  text-align: center;
-  margin: 1px;
-  color: #e0a0a0;
-}
-
-.content-h2 {
-  font-family: "Satisfy", cursive;
-  font-size: 35px;
-  text-align: center;
-}
-
-ul {
-  list-style: none;
-  text-align: center;
-}
-
-div {
-  margin-right: 40px;
-}
-
-a:link {
+h1.schedules-info {
+  font-family: autumn;
+  font-size: 500%;
   color: #20b2aa;
-  text-decoration: none;
+  margin: 20px;
 }
 
-a:hover {
-  color: #ffd6dc;
-  font-size: larger;
-}
-
-a:visited {
+h2.schedules-date-font {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 150%;
   color: #20b2aa;
-  text-decoration: none;
+  font-weight: bolder;
+  margin: 5px;
 }
-
-em {
-  font-size: 45px;
-}
-
-/* Zhengliang's codes */
-/* End by here!! */
 
 
 /* Matthew's code */
