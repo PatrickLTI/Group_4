@@ -255,10 +255,12 @@ em {
 
 /* Matthew's code */
 tr.story {
-    background-image: url(../images/pinkheart.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin-top: 10px;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/pinkheart.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
 }
 
 td.storypic {
@@ -451,13 +453,15 @@ h1.story {
 /* Heindy css */
 
 
-body.mainaccomodation{
-	background-image:url(../images/pinkheart.jpg);
-	background-repeat:no-repeat;
-	background-size:160%;
-	height:700px;
-	text-align:center;
+body.mainaccomodation {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/pinkheart.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
 }
+
 h1.accomodationtitle{
   /* font-family:Brush Script MT; */
   text-align: center;
