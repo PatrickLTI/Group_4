@@ -23,9 +23,10 @@
 
 /* End of Patrick's font */
 
-table.general{
-	width:100%;
-	border-collapse:collapse;
+table.general {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: white;
 }
 
 
@@ -212,7 +213,6 @@ h3.footername{
   font-size: 100px;
   text-align: center;
   margin: 1px;
-  color: #e0a0a0;
 }
 
 .content-h2 {
