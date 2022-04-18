@@ -89,14 +89,14 @@ h1.married{
 
 }
 
-/* styles for footer */
-table.footer{
-	background-image:url(../images/mars1.jpg);
+/* styles for info */
+table.info{
+	background-image:url(../images/info.jpg);
 	background-repeat:no-repeat;
 	background-size:100%;
 	width:100%;
 }
-h2.footertitle{
+h2.infotitle{
 	font-family: 'Josefin Sans', sans-serif;
 	font-size:200%;
 	margin-top:15px;
@@ -104,7 +104,7 @@ h2.footertitle{
 	margin-left:50%;
 	color:#20B2AA;
 }
-p{
+p.info{
 	margin:0 5% 5% 50%;
 	color:#20B2AA;
 	line-height:2;
@@ -112,6 +112,31 @@ p{
 	font-style:italic;
 	font-size:150%;
 }
+
+
+/* sytles for footer */
+hr.footerline{
+	height:2px;
+	border-width:0;
+	color:black;
+	background-color:black;
+}
+td.footer{
+	text-align:center;
+	background-color:#F5EFF5;
+
+}
+h3.footerwelcome h3.footertime{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:200%;
+	
+	
+}
+h3.footername{
+	font-family:autumn;
+	color:#20B2AA;
+}
+	
 
 
 
