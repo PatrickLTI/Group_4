@@ -240,10 +240,10 @@ a:hover {
   font-size: larger;
 }
 
-a:visited {
+/* a:visited {
   color: #20b2aa;
   text-decoration: none;
-}
+} */
 
 em {
   font-size: 45px;
