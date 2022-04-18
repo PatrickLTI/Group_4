@@ -1,85 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="../css/homepagestyle.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sonya & Marcus</title>
+    <!-- CSS Reference link: -->
+    <link rel="stylesheet" href="../css/homepagestyle.css" />
+
+    <!-- The 1st Font from Google - Zhengliang  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- The 2nd Font from Google - Zhengliang -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&family=Square+Peg&display=swap"
+      rel="stylesheet"
+    />
+    <!--  -->
   </head>
   <body>
-    <table class="header">
-      <thead>
-        <tr>
-          <td colspan="5">
-            <center>
-              <img src="../images/flowerbanner.jpg" alt="flower banner" />
-            </center>
-          </td>
-        </tr>
-        <nav>
-          <tr class="nav-menu">
-            <td class="menu"><a href="../index.html">Home</a></td>
-            <td class="menu"><a href="../pages/address.html">Address</a></td>
-            <td class="menu">
-              <a href="../pages/Schedules.html">Schedules</a>
-            </td>
-            <td class="menu"><a href="../pages/Accommodations.html">Accommodations</a></td>
-            <td class="menu"><a href="../pages/ourStory.html">Our Story</a></td>
-          </tr>
-        </nav>
-      </thead>
-    </table>
+    <!-- Top Banner, the 1st div -->
+    <div class="top-banner">
+      <img src="../images/flowerbanner.jpg" alt="banner" />
+    </div>
 
+    <!-- The 2nd div for Navigation Bar -->
+    <div class="navbar">
+      <div class="Home">
+        <h1><a href="../index.html">Home</a></h1>
+      </div>
+      <div class="Address">
+        <h1><a href="../pages/address.html">Address</a></h1>
+      </div>
+      <div class="Schedules">
+        <h1><a href="../pages/Schedules.html">Schedules</a></h1>
+      </div>
+      <div class="Accommodations">
+        <h1><a href="../pages/Accommodations.html">Accommodations</a></h1>
+      </div>
+      <div class="OurStory">
+        <h1><a href="../pages/ourStory.html">Our Story</a></h1>
+      </div>
+    </div>
+
+    <!-- creat a big div container and then load other divs into this container - marked by ZLL -->
     <div class="container">
-      <img
-        src="../images/pink-table.jpg"
-        alt="pink table"
-        class="schedules-background"
-      />
-      <div class="centered">
-        <div>
-          <table class="schedules-table">
-            <tr>
-              <td class="schedules-td">
-                <h1 class="schedules-info">Friday</h1>
-                <h2 class="schedules-date-font">The 29th Of April</h2>
-                <h2 class="schedules-date-font">
-                  At Six O'clock in the evening
-                </h2>
-                <h2 class="schedules-date-font">
-                  <br />
-                  <em>Cocktail Attire</em>
-                </h2>
-              </td>
-            </tr>
-            <tr>
-              <td class="schedules-td">
-                <h1 class="schedules-info">Saturday</h1>
-                <h2 class="schedules-date-font">The 30th Of April</h2>
-                <h2 class="schedules-date-font">
-                  At Seven O'clock in the evening
-                </h2>
-                <br />
-                <h2 class="schedules-date-font">
-                  <em>Formal Attire</em>
-                </h2>
-              </td>
-            </tr>
-            <tr>
-              <td class="schedules-td">
-                <h1 class="schedules-info">Sunday</h1>
-                <h2 class="schedules-date-font">The 1st Of May</h2>
-                <h2 class="schedules-date-font">
-                  At Five O'clock in the evening
-                </h2>
-                <h2 class="schedules-date-font">
-                  <br />
-                  <em>Creative Black Tie</em>
-                </h2>
-              </td>
-            </tr>
-          </table>
-        </div>
+      <div class="leftside-box">
+        <h1 class="content">Friday</h1>
+        <h2 class="content-h2">
+          <ul>
+            <li>The 29th of April</li>
+            <li>At 6 o'clock Evening</li>
+            <br />
+            <li><em>Formal Attire</em></li>
+          </ul>
+        </h2>
+      </div>
+
+      <div class="Middle-box">
+        <h1 class="content">Saturday</h1>
+        <h2 class="content-h2">
+          <ul>
+            <li>The 30th of April</li>
+            <li>At 7 o'clock Morning</li>
+            <br />
+            <li><em>Creative Black Tie</em></li>
+          </ul>
+        </h2>
+      </div>
+
+      <div class="Right-box">
+        <h1 class="content">Sunday</h1>
+        <h2 class="content-h2">
+          <ul>
+            <li>The 1st of May</li>
+            <li>At 1 o'clock Afternoon</li>
+            <br />
+            <li><em>White Tie</em></li>
+          </ul>
+        </h2>
       </div>
     </div>
   </body>
